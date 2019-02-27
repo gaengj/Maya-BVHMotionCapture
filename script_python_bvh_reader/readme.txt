@@ -1,0 +1,3 @@
+need to specify filename to correct path for bvh or not work, change to actual to utilise it.
+use the bvh you want but change path ...
+path is specified directly inside the python script file

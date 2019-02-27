@@ -1,0 +1,5 @@
+﻿  lepTranslator.cpp
+c:\users\ensimag\desktop\leptranslator\leptranslator.cpp(210): warning C4267: 'initialisation' : conversion de 'size_t' en 'unsigned int', perte possible de données
+     Création de la bibliothèque x64\Debug\lepTranslator.lib et de l'objet x64\Debug\lepTranslator.exp
+  lepTranslator.vcxproj -> C:\Users\ensimag\Desktop\lepTranslator\x64\Debug\lepTranslator.mll
+          1 fichier(s) copié(s).

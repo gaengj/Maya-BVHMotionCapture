@@ -1,0 +1,112 @@
+HIERARCHY
+ROOT PELV
+{
+	OFFSET -0.715 4.482 0.000
+	CHANNELS 6 Xposition Yposition Zposition Zrotation Yrotation Xrotation
+	JOINT ULEGl
+	{
+		OFFSET -4.261 -5.192 -0.078
+		CHANNELS 3 Zrotation Yrotation Xrotation
+		JOINT LLEGl
+		{
+			OFFSET -2.001 -2.787 0.335
+			CHANNELS 3 Zrotation Yrotation Xrotation
+			JOINT FOOTl
+			{
+				OFFSET -1.492 -2.410 0.098
+				CHANNELS 3 Zrotation Yrotation Xrotation
+				End FOOTl_End
+				{
+					OFFSET -1.492 -2.410 0.098
+				}
+			}
+		}
+	}
+	JOINT ULEGr
+	{
+		OFFSET 3.994 -5.477 -0.044
+		CHANNELS 3 Zrotation Yrotation Xrotation
+		JOINT LLEGr
+		{
+			OFFSET 1.697 -2.766 -0.093
+			CHANNELS 3 Zrotation Yrotation Xrotation
+			JOINT FOOTr
+			{
+
+				OFFSET 1.471 -1.926 -0.234
+				CHANNELS 3 Zrotation Yrotation Xrotation
+				End FOOTr_End
+				{
+					OFFSET 1.471 -1.926 -0.234
+				}
+
+			}
+		}
+	}
+	JOINT STERN
+	{
+		OFFSET -0.025 6.820 0.240
+		CHANNELS 3 Zrotation Yrotation Xrotation
+		JOINT HEAD
+		{
+			OFFSET -0.081 2.825 -0.047
+			CHANNELS 3 Zrotation Yrotation Xrotation
+			End HEAD_End
+			{
+				OFFSET -0.081 2.825 -0.047
+			}
+		}
+		JOINT SHOUl
+		{
+			OFFSET 1.832 0.216 0.122
+			CHANNELS 3 Zrotation Yrotation Xrotation
+			JOINT UARMl
+			{
+				OFFSET 4.736 0.307 -0.185
+				CHANNELS 3 Zrotation Yrotation Xrotation
+				JOINT FARMl
+				{
+					OFFSET 2.947 0.240 0.093
+					CHANNELS 3 Zrotation Yrotation Xrotation
+					JOINT HANDl
+					{
+						OFFSET 1.795 -0.016 0.185
+						CHANNELS 3 Zrotation Yrotation Xrotation
+						End HANDl_End
+						{
+							OFFSET 1.795 -0.016 0.185
+						}
+					}
+				}
+			}
+		}
+		JOINT SHOUr
+		{
+			OFFSET -1.755 -0.003 -0.123
+			CHANNELS 3 Zrotation Yrotation Xrotation
+			JOINT UARMr
+			{
+				OFFSET -4.004 0.068 -0.174
+				CHANNELS 3 Zrotation Yrotation Xrotation
+				JOINT FARMr
+				{
+					OFFSET -3.045 0.166 -0.215
+					CHANNELS 3 Zrotation Yrotation Xrotation
+					JOINT HANDr
+					{
+						OFFSET -2.437 0.013 0.035
+						CHANNELS 3 Zrotation Yrotation Xrotation
+						End HANDr_End
+						{
+							OFFSET -2.437 0.013 0.035
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+MOTION
+Frames: 67
+Frame Time:
